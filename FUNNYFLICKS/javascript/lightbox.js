@@ -49,7 +49,7 @@ function showLightBox(n) {
 
     }
     else{
-        lightBoxPara.innerHTML=        `<h2>Harsh Gujral</h2><p>  better known by her stage name “Sasta Vicky Kaushal,” was born on September 17, 1993. 30 years) hails from Uttar Pradesh, India, and is a well-known comedian, actor, YouTuber, social media star, television personality, and Internet face. His comedy’s punch lines, real-life stories, and intonation helped him achieve national fame.</p>`
+        lightBoxPara.innerHTML=        `<h2>Harsh Gujral</h2><p>  better known by her stage name “Sasta Vicky Kaushal,” hails from Uttar Pradesh, India, and is a well-known comedian, actor, YouTuber, social media star, television personality, and Internet face. His comedy’s punch lines, real-life stories helped him achieve national fame.</p>`
 
     }
 
