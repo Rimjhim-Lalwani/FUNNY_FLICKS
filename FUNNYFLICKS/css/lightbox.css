@@ -132,6 +132,25 @@
     .lightbox{
         flex-direction: column;
     }
+    .lightbox2{
+        flex-direction: column;
+       
+    }
+    .lightbox-text{
+        width: 100%;
+        margin-top: -25%;
+        
+    }
+    .lightbox-para{
+        font-size: 1.2rem;
+margin-right: 10%;
+    }
+    .lightbox1{
+        height: 5%;
+    }
+    .lightbox1 button{
+        width: 8%;
+    }
 }
 @media (max-width: 480px) {
     .gallery-item {
