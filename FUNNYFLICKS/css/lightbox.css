@@ -1,0 +1,145 @@
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    
+    width: 70%;
+    padding: 10%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5%;
+
+}
+.gallery-item {
+    
+    width: 40%;
+    
+    margin-bottom: 10%;
+  
+    cursor: pointer;
+}
+.gallery-item:hover {
+    opacity: 0.8;
+}
+.gallery-item img {
+    width: 100%;height: auto;
+   
+    object-fit: cover;
+}
+.gallery-content {
+    font-size: .8em;
+}
+
+.lightbox {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;              
+   
+    top: 0;
+    left: 0;
+}
+.lightbox1 {
+   
+    align-items: flex-end;
+    width: 100%;
+    height: 10%;  
+    margin-top: 5%; 
+               
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.lightbox2 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;              
+    overflow: hidden;
+    z-index: -2;
+    left: 0;
+}
+.lightbox-content {
+    position: relative;
+    width: 30%;
+    
+    margin-top: 7%;
+    margin-left: 8%;
+    padding: 30px;
+}
+.lightbox-text{
+    position: relative;
+    width: 40%;
+    height: 70%;
+   margin-left: 5%;
+   margin-top: 8%;
+    background-color: transparent;
+    
+}
+.lightbox-para{
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.lightbox-content img {
+    border-radius: 7px;
+    box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
+    width: 100%;
+    
+    object-fit: cover;
+    
+}
+.crossBtn img{
+    height: 80%;
+    width: 80%;
+    cursor: pointer;
+}
+.crossBtn{
+    background-color:white;
+    width: 4%;
+    height:70%;
+    margin-left: 90%;
+    margin-top: 1%;
+    
+}
+.ytbtn{
+    margin-top: 48%;
+    width: 30%;
+    height: 10%;
+    color: #000000;
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+    .gallery-container {
+        width: 100%;
+    }
+    .gallery-item {
+        flex-basis: 49.80%;
+        margin-bottom: 3px;
+    }
+    .lightbox-content {
+        width: 80%;
+        height: 60%;
+        margin: 15% auto;
+    }
+    .lightbox{
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .gallery-item {
+        flex-basis: 100%;
+        margin-bottom: 1px;
+    }
+    .lightbox-content {
+        width: 90%;
+        margin: 20% auto;
+    }
+}
